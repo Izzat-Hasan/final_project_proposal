@@ -151,6 +151,16 @@ img{
     width: 100%;
     min-height: 400px;
   }
+
+  .Updated{
+    text-align: center;
+    background-color: rgb(229, 255, 204);
+    max-width: auto;
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+  }
+
 /* Making Responsive */
 @media (max-width: 1080px) {
   .container {
