@@ -1,0 +1,196 @@
+/* Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap");
+* {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+  padding: 0;
+  scroll-padding-top: 1rem;
+  scroll-behavior: smooth;
+  list-style: none;
+  text-decoration: none;
+  box-sizing: border-box;
+}
+header {
+  display: block;
+  width: 100%;
+  position: absolute;
+  top: 50;
+  left: 0;
+  background-color: #1f2833;
+  z-index: 100;
+
+}
+
+
+footer{
+    padding: 20px;
+    color:#ffffff;
+    background-color: #1f2833;
+    text-align: center;
+  }
+
+
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 35px;
+}
+
+.navbar {
+  display: flex;
+  column-gap: 2rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 35px;
+
+}
+.navbar a {
+  color: #66fcf1;
+  font-size: 17px;
+  text-transform: uppercase;
+  font-weight: 500;
+  border-bottom: none;
+}
+.navbar a:hover,
+.navbar .active {
+  color: #66fcf1;
+  border-bottom: 3px solid #d8e2e1;;
+}
+#menu-icon {
+  font-size: 24px;
+  cursor: pointer;
+  color: var(--text-color);
+  display: none;
+}
+.logo {
+  font-size: 30px;
+  font-weight: 700;
+  color: #66fcf1;
+}
+.logo span {
+    color: #66fcf1;
+}
+section {
+  padding: 4rem 0 2rem;
+
+}
+
+
+
+/* This is where you'll be working :) */
+
+
+img{
+  max-width: auto;
+  margin: auto;
+  width: 100%;
+  min-height: 800px;
+  display: flex;
+  align-items: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center left;
+}
+
+
+
+.Izzy{
+  text-align: center;
+  background-color: rgb(102, 78, 93);
+  max-width: auto;
+  margin: auto;
+  width: 100%;
+  min-height: 400px;
+
+}
+
+.Katie{
+  text-align: center;
+  background-color: rgb(70, 129, 95);
+  max-width: auto;
+  margin: auto;
+  width: 100%;
+  min-height: 400px;
+}
+
+.Mike{
+    text-align: center;
+    background-color: rgb(79, 70, 129);
+    max-width: auto;
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+  }
+
+.shane{
+    text-align: center;
+    background-color: rgb(129, 106, 70);
+    max-width: auto;
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+  }
+/* Making Responsive */
+@media (max-width: 1080px) {
+  .container {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
+}
+@media (max-width: 991px) {
+  .nav {
+    padding: 15px 20px;
+  }
+ 
+}
+
+@media (max-width: 768px) {
+
+
+  #menu-icon {
+    display: initial;
+  }
+  .navbar {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    background: var(--bg-color);
+    row-gap: 0.5rem;
+    text-align: center;
+    box-shadow: 4px 4px 20px rgb(15 54 55 / 20%);
+    clip-path: circle(0% at 0% 0%);
+    transition: 0.6s;
+    
+  }
+  .navbar a {
+    display: block;
+    padding: 15px;
+  }
+  .navbar a:hover,
+  .navbar .active {
+    border-bottom: none;
+    background: var(--main-color);
+    color: var(--bg-color);
+    color: #66fcf1;
+  }
+  .navbar.active {
+    clip-path: circle(144% at 0% 0%);
+  }
+
+}
+@media (max-width: 727px) {
+
+}
+@media (max-width: 607px) {
+  .footer-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
