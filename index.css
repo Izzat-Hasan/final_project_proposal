@@ -122,10 +122,15 @@ img{
   min-height: 400px;
 }
 .card {
+<<<<<<< HEAD
   color: black;
   background-color: white;
   padding: 80px;
   height: 400px;
+=======
+  background-color: white;
+  padding: 100px;
+>>>>>>> a14e6e4df87270e179bae88b3e1ecc2ea3fa2241
   margin-top: 80px;
 }
 
@@ -163,9 +168,14 @@ img{
   }
 
   .Updated{
+<<<<<<< HEAD
     color: #ffffff;
     text-align: center;
     background-color: rgb(87, 87, 87);
+=======
+    text-align: center;
+    background-color: rgb(229, 255, 204);
+>>>>>>> a14e6e4df87270e179bae88b3e1ecc2ea3fa2241
     max-width: auto;
     margin: auto;
     width: 100%;
