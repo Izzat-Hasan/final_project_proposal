@@ -13,11 +13,9 @@
 header {
   display: block;
   width: 100%;
-  position: absolute;
-  top: 50;
-  left: 0;
+  position:fixed;
   background-color: #1f2833;
-  z-index: 100;
+
 
 }
 
@@ -66,7 +64,7 @@ footer{
   display: none;
 }
 .logo {
-  font-size: 30px;
+  font-size: 40px;
   font-weight: 700;
   color: #66fcf1;
 }
@@ -98,27 +96,56 @@ img{
 
 
 .Izzy{
+  font-size: 50px;
+  color: rgb(0, 0, 0);
   text-align: center;
-  background-color: rgb(102, 78, 93);
+  background-color: rgb(87, 87, 87);
   max-width: auto;
   margin: auto;
   width: 100%;
   min-height: 400px;
 
+}
+.team{
+  font-size: 30px;
+  color: #ffffff;
+  font-weight:bolder;
 }
 
 .Katie{
+  color: #ffffff;
   text-align: center;
-  background-color: rgb(70, 129, 95);
+  background-color: #1f2833;
   max-width: auto;
   margin: auto;
   width: 100%;
   min-height: 400px;
 }
+.card {
+  color: black;
+  background-color: white;
+  padding: 80px;
+  height: 400px;
+  margin-top: 80px;
+}
+
+/* helps smooth distance between cards*/
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.column {
+  align-self: center;
+  float: left;
+  width: 50%;
+  padding: 0 10px;
+}
 
 .Mike{
+    color: #ffffff;
     text-align: center;
-    background-color: rgb(79, 70, 129);
+    background-color: #1f2833;
     max-width: auto;
     margin: auto;
     width: 100%;
@@ -126,13 +153,25 @@ img{
   }
 
 .shane{
+    color: #ffffff;
     text-align: center;
-    background-color: rgb(129, 106, 70);
+    background-color: rgb(87, 87, 87);
     max-width: auto;
     margin: auto;
     width: 100%;
     min-height: 400px;
   }
+
+  .Updated{
+    color: #ffffff;
+    text-align: center;
+    background-color: rgb(87, 87, 87);
+    max-width: auto;
+    margin: auto;
+    width: 100%;
+    min-height: 400px;
+  }
+
 /* Making Responsive */
 @media (max-width: 1080px) {
   .container {
@@ -193,4 +232,3 @@ img{
     grid-template-columns: 1fr 1fr;
   }
 }
-
